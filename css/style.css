@@ -1,0 +1,65 @@
+@import url('normilaze.css');
+
+body {
+    background-color: blanchedalmond;
+
+}
+
+section {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background: #FFFFFF;
+    margin: 50px auto;
+}
+
+.img_logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+.text_logo {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #909090;
+    margin-top: 20%;
+}
+
+.login {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.login_text {
+    text-align: center;
+}
+
+.login_text h5 {
+    font-family: 'Roboto',
+        sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    border-bottom: 1px solid #1084DA;
+    display: inline-flex;
+    padding-bottom: 10px;
+}
+
+.login_img {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login_img img {
+    padding-bottom: 25px;
+}
